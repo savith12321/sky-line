@@ -1,0 +1,103 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Sprites/Tiles/sky2.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Player/idle.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Player/jump.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Player/run0.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Player/run1.png" type="Texture" id=5]
+[ext_resource path="res://worlds/startmenue.gd" type="Script" id=6]
+
+[sub_resource type="DynamicFontData" id=1]
+hinting = 1
+font_path = "res://Rockout-vVaM.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+font_data = SubResource( 1 )
+
+[sub_resource type="DynamicFontData" id=3]
+font_path = "res://Rockout-vVaM.ttf"
+
+[sub_resource type="DynamicFont" id=4]
+size = 20
+font_data = SubResource( 3 )
+
+[sub_resource type="DynamicFontData" id=5]
+font_path = "res://Rockout-vVaM.ttf"
+
+[sub_resource type="DynamicFont" id=6]
+size = 23
+font_data = SubResource( 5 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="sky2" type="Sprite" parent="."]
+position = Vector2( 320, 208 )
+scale = Vector2( 1.76, 1.36 )
+texture = ExtResource( 1 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_left = 215.0
+margin_top = 136.0
+margin_right = 425.0
+margin_bottom = 223.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="gameName" type="Label" parent="CenterContainer/VBoxContainer"]
+margin_right = 210.0
+margin_bottom = 32.0
+custom_fonts/font = SubResource( 2 )
+text = "sky line"
+
+[node name="play" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 36.0
+margin_right = 210.0
+margin_bottom = 58.0
+custom_fonts/font = SubResource( 4 )
+text = "Play"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Quit" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 62.0
+margin_right = 210.0
+margin_bottom = 87.0
+custom_fonts/font = SubResource( 6 )
+text = "quit"
+
+[node name="jump" type="Sprite" parent="."]
+position = Vector2( 124.5, 112 )
+rotation = -0.23373
+scale = Vector2( 5.07143, 5 )
+texture = ExtResource( 3 )
+
+[node name="run0" type="Sprite" parent="jump"]
+position = Vector2( 75.568, 11.9013 )
+texture = ExtResource( 4 )
+
+[node name="run1" type="Sprite" parent="jump"]
+position = Vector2( 0.131828, 35.9087 )
+texture = ExtResource( 5 )
+
+[node name="idle" type="Sprite" parent="jump"]
+position = Vector2( 72.4314, 53.6748 )
+texture = ExtResource( 2 )
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Quit" to="." method="_on_Quit_pressed"]

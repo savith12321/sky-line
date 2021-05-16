@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Sprites/Tiles/obsticle.png" type="Texture" id=1]
+[ext_resource path="res://scripts/obsticle.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 15.8176, 8.99986 )
+
+[node name="2" type="Sprite"]
+position = Vector2( 64, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 32, 32 )
+
+[node name="area2d" type="Area2D" parent="."]
+position = Vector2( -64, 0 )
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="area2d"]
+position = Vector2( 80.0842, 22.9054 )
+shape = SubResource( 1 )
