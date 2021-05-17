@@ -1,8 +1,6 @@
-git config --global user.name "savith nishitha"
-git config --global user.email "isavith.nishitha@gmail.com"
 git init
-git commit -m "first commit"
-git remote add https://github.com/savith12321/sky-line.git
+git add *
+git commit -m "sky lineeeeeeeee"
 git branch -M main
-git add .
-git push -u origin master
+git remote add origin https://github.com/savith12321/sky-line.git
+git push -u origin main
