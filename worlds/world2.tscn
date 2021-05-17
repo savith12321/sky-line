@@ -25,6 +25,9 @@ world_scene = "res://worlds/world3.tscn"
 [node name="2" parent="obsticles" instance=ExtResource( 4 )]
 position = Vector2( 1056, 256 )
 
+[node name="47" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 0, 608 )
+
 [node name="3" parent="obsticles" instance=ExtResource( 4 )]
 position = Vector2( 1088, 256 )
 
@@ -159,3 +162,1440 @@ position = Vector2( 5664, 480 )
 
 [node name="46" parent="obsticles" instance=ExtResource( 5 )]
 position = Vector2( 5664, 480 )
+
+[node name="48" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 32, 608 )
+
+[node name="49" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 64, 608 )
+
+[node name="50" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 96, 608 )
+
+[node name="51" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 160, 608 )
+
+[node name="52" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 128, 608 )
+
+[node name="53" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 192, 608 )
+
+[node name="54" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 224, 608 )
+
+[node name="55" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 256, 608 )
+
+[node name="56" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 288, 608 )
+
+[node name="57" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 352, 608 )
+
+[node name="58" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 320, 608 )
+
+[node name="59" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 384, 608 )
+
+[node name="60" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 416, 608 )
+
+[node name="61" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 448, 608 )
+
+[node name="62" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 480, 608 )
+
+[node name="63" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 544, 608 )
+
+[node name="64" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 512, 608 )
+
+[node name="65" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 576, 608 )
+
+[node name="66" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 608, 608 )
+
+[node name="67" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 640, 608 )
+
+[node name="68" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 672, 608 )
+
+[node name="69" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 736, 608 )
+
+[node name="70" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 704, 608 )
+
+[node name="71" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 768, 608 )
+
+[node name="72" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 800, 608 )
+
+[node name="73" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 832, 608 )
+
+[node name="74" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 864, 608 )
+
+[node name="75" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 928, 608 )
+
+[node name="76" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 896, 608 )
+
+[node name="77" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 960, 608 )
+
+[node name="78" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 992, 608 )
+
+[node name="79" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1024, 608 )
+
+[node name="80" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1056, 608 )
+
+[node name="81" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1120, 608 )
+
+[node name="82" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1088, 608 )
+
+[node name="83" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1152, 608 )
+
+[node name="84" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1184, 608 )
+
+[node name="85" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1216, 608 )
+
+[node name="86" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1248, 608 )
+
+[node name="87" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1312, 608 )
+
+[node name="88" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1280, 608 )
+
+[node name="89" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1344, 608 )
+
+[node name="90" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1376, 608 )
+
+[node name="91" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1408, 608 )
+
+[node name="92" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1440, 608 )
+
+[node name="93" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1504, 608 )
+
+[node name="94" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1472, 608 )
+
+[node name="95" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1536, 608 )
+
+[node name="96" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1568, 608 )
+
+[node name="97" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1600, 608 )
+
+[node name="98" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1632, 608 )
+
+[node name="99" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1696, 608 )
+
+[node name="100" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1664, 608 )
+
+[node name="101" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1728, 608 )
+
+[node name="102" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1760, 608 )
+
+[node name="103" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1792, 608 )
+
+[node name="104" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1824, 608 )
+
+[node name="105" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1888, 608 )
+
+[node name="106" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1856, 608 )
+
+[node name="107" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1920, 608 )
+
+[node name="108" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1952, 608 )
+
+[node name="109" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 1984, 608 )
+
+[node name="110" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2016, 608 )
+
+[node name="111" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2080, 608 )
+
+[node name="112" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2048, 608 )
+
+[node name="113" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2112, 608 )
+
+[node name="114" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2144, 608 )
+
+[node name="115" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2176, 608 )
+
+[node name="116" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2208, 608 )
+
+[node name="117" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2272, 608 )
+
+[node name="118" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2240, 608 )
+
+[node name="119" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2304, 608 )
+
+[node name="120" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2336, 608 )
+
+[node name="121" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2368, 608 )
+
+[node name="122" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2400, 608 )
+
+[node name="123" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2464, 608 )
+
+[node name="124" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2432, 608 )
+
+[node name="125" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2496, 608 )
+
+[node name="126" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2528, 608 )
+
+[node name="127" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2560, 608 )
+
+[node name="128" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2592, 608 )
+
+[node name="129" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2656, 608 )
+
+[node name="130" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2624, 608 )
+
+[node name="131" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2688, 608 )
+
+[node name="132" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2720, 608 )
+
+[node name="133" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2752, 608 )
+
+[node name="134" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2784, 608 )
+
+[node name="135" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2848, 608 )
+
+[node name="136" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2816, 608 )
+
+[node name="137" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2880, 608 )
+
+[node name="138" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2912, 608 )
+
+[node name="139" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2944, 608 )
+
+[node name="140" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 2976, 608 )
+
+[node name="141" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3040, 608 )
+
+[node name="142" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3008, 608 )
+
+[node name="143" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3072, 608 )
+
+[node name="144" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3104, 608 )
+
+[node name="145" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3136, 608 )
+
+[node name="146" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3168, 608 )
+
+[node name="147" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3200, 608 )
+
+[node name="148" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3264, 608 )
+
+[node name="149" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3232, 608 )
+
+[node name="150" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3296, 608 )
+
+[node name="151" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3328, 608 )
+
+[node name="152" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3360, 608 )
+
+[node name="153" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3392, 608 )
+
+[node name="154" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3456, 608 )
+
+[node name="155" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3424, 608 )
+
+[node name="156" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3488, 608 )
+
+[node name="157" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3520, 608 )
+
+[node name="158" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3552, 608 )
+
+[node name="159" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3584, 608 )
+
+[node name="160" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3648, 608 )
+
+[node name="161" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3616, 608 )
+
+[node name="162" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3680, 608 )
+
+[node name="163" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3712, 608 )
+
+[node name="164" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3744, 608 )
+
+[node name="165" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3776, 608 )
+
+[node name="166" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3840, 608 )
+
+[node name="167" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3808, 608 )
+
+[node name="168" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3872, 608 )
+
+[node name="169" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3904, 608 )
+
+[node name="170" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3936, 608 )
+
+[node name="171" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 3968, 608 )
+
+[node name="172" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4032, 608 )
+
+[node name="173" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4000, 608 )
+
+[node name="174" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4064, 608 )
+
+[node name="175" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4096, 608 )
+
+[node name="176" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4128, 608 )
+
+[node name="177" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4160, 608 )
+
+[node name="178" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4192, 608 )
+
+[node name="179" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4256, 608 )
+
+[node name="180" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4224, 608 )
+
+[node name="181" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4288, 608 )
+
+[node name="182" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4320, 608 )
+
+[node name="183" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4352, 608 )
+
+[node name="184" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4384, 608 )
+
+[node name="185" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4448, 608 )
+
+[node name="186" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4416, 608 )
+
+[node name="187" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4480, 608 )
+
+[node name="188" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4512, 608 )
+
+[node name="189" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4544, 608 )
+
+[node name="190" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4576, 608 )
+
+[node name="191" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4640, 608 )
+
+[node name="192" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4608, 608 )
+
+[node name="193" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4672, 608 )
+
+[node name="194" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4704, 608 )
+
+[node name="195" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4736, 608 )
+
+[node name="196" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4768, 608 )
+
+[node name="197" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4832, 608 )
+
+[node name="198" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4800, 608 )
+
+[node name="199" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4864, 608 )
+
+[node name="200" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4896, 608 )
+
+[node name="201" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4928, 608 )
+
+[node name="202" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4960, 608 )
+
+[node name="204" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 4992, 608 )
+
+[node name="203" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 5824, 608 )
+
+[node name="205" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 5792, 608 )
+
+[node name="206" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 5856, 608 )
+
+[node name="207" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 5888, 608 )
+
+[node name="208" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 5920, 608 )
+
+[node name="209" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 5952, 608 )
+
+[node name="210" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6016, 608 )
+
+[node name="211" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 5984, 608 )
+
+[node name="212" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6048, 608 )
+
+[node name="213" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6080, 608 )
+
+[node name="214" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6112, 608 )
+
+[node name="215" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6144, 608 )
+
+[node name="216" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6176, 608 )
+
+[node name="217" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6240, 608 )
+
+[node name="218" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6208, 608 )
+
+[node name="219" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6272, 608 )
+
+[node name="220" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6304, 608 )
+
+[node name="221" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6336, 608 )
+
+[node name="222" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6368, 608 )
+
+[node name="223" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6432, 608 )
+
+[node name="224" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6400, 608 )
+
+[node name="225" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6464, 608 )
+
+[node name="226" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6496, 608 )
+
+[node name="227" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6528, 608 )
+
+[node name="228" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6560, 608 )
+
+[node name="229" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6592, 608 )
+
+[node name="230" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6656, 608 )
+
+[node name="231" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6624, 608 )
+
+[node name="232" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6688, 608 )
+
+[node name="233" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6720, 608 )
+
+[node name="234" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6752, 608 )
+
+[node name="235" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6784, 608 )
+
+[node name="236" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6848, 608 )
+
+[node name="237" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6816, 608 )
+
+[node name="238" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6880, 608 )
+
+[node name="239" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6912, 608 )
+
+[node name="240" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6944, 608 )
+
+[node name="241" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 6976, 608 )
+
+[node name="242" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( 7008, 608 )
+
+[node name="243" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1408, 608 )
+
+[node name="244" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1376, 608 )
+
+[node name="245" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1344, 608 )
+
+[node name="246" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1312, 608 )
+
+[node name="247" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1248, 608 )
+
+[node name="248" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1280, 608 )
+
+[node name="249" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1216, 608 )
+
+[node name="250" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1184, 608 )
+
+[node name="251" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1152, 608 )
+
+[node name="252" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1120, 608 )
+
+[node name="253" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1056, 608 )
+
+[node name="254" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1088, 608 )
+
+[node name="255" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -1024, 608 )
+
+[node name="256" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -992, 608 )
+
+[node name="257" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -960, 608 )
+
+[node name="258" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -928, 608 )
+
+[node name="259" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -864, 608 )
+
+[node name="260" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -896, 608 )
+
+[node name="261" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -832, 608 )
+
+[node name="262" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -800, 608 )
+
+[node name="263" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -768, 608 )
+
+[node name="264" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -736, 608 )
+
+[node name="265" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -672, 608 )
+
+[node name="266" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -704, 608 )
+
+[node name="267" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -640, 608 )
+
+[node name="268" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -608, 608 )
+
+[node name="269" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -576, 608 )
+
+[node name="270" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -544, 608 )
+
+[node name="271" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -480, 608 )
+
+[node name="272" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -512, 608 )
+
+[node name="273" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -448, 608 )
+
+[node name="274" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -416, 608 )
+
+[node name="275" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -384, 608 )
+
+[node name="276" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -352, 608 )
+
+[node name="277" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -288, 608 )
+
+[node name="278" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -320, 608 )
+
+[node name="279" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -256, 608 )
+
+[node name="280" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -224, 608 )
+
+[node name="281" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -192, 608 )
+
+[node name="282" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -160, 608 )
+
+[node name="283" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -96, 608 )
+
+[node name="284" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -128, 608 )
+
+[node name="285" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -64, 608 )
+
+[node name="286" parent="obsticles" instance=ExtResource( 4 )]
+position = Vector2( -32, 608 )
+
+[node name="287" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 0, 640 )
+
+[node name="288" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 32, 640 )
+
+[node name="289" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 64, 640 )
+
+[node name="290" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 96, 640 )
+
+[node name="291" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 160, 640 )
+
+[node name="292" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 128, 640 )
+
+[node name="293" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 192, 640 )
+
+[node name="294" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 224, 640 )
+
+[node name="295" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 256, 640 )
+
+[node name="296" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 288, 640 )
+
+[node name="297" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 352, 640 )
+
+[node name="298" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 320, 640 )
+
+[node name="299" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 384, 640 )
+
+[node name="300" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 416, 640 )
+
+[node name="301" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 448, 640 )
+
+[node name="302" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 480, 640 )
+
+[node name="303" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 544, 640 )
+
+[node name="304" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 512, 640 )
+
+[node name="305" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 576, 640 )
+
+[node name="306" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 608, 640 )
+
+[node name="307" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 640, 640 )
+
+[node name="308" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 672, 640 )
+
+[node name="309" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 736, 640 )
+
+[node name="310" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 704, 640 )
+
+[node name="311" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 768, 640 )
+
+[node name="312" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 800, 640 )
+
+[node name="313" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 832, 640 )
+
+[node name="314" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 864, 640 )
+
+[node name="315" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 928, 640 )
+
+[node name="316" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 896, 640 )
+
+[node name="317" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 960, 640 )
+
+[node name="318" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 992, 640 )
+
+[node name="319" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1024, 640 )
+
+[node name="320" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1056, 640 )
+
+[node name="321" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1120, 640 )
+
+[node name="322" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1088, 640 )
+
+[node name="323" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1152, 640 )
+
+[node name="324" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1184, 640 )
+
+[node name="325" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1216, 640 )
+
+[node name="326" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1248, 640 )
+
+[node name="327" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1312, 640 )
+
+[node name="328" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1280, 640 )
+
+[node name="329" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1344, 640 )
+
+[node name="330" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1376, 640 )
+
+[node name="331" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1408, 640 )
+
+[node name="332" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1440, 640 )
+
+[node name="333" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1504, 640 )
+
+[node name="334" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1472, 640 )
+
+[node name="335" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1536, 640 )
+
+[node name="336" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1568, 640 )
+
+[node name="337" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1600, 640 )
+
+[node name="338" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1632, 640 )
+
+[node name="339" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1696, 640 )
+
+[node name="340" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1664, 640 )
+
+[node name="341" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1728, 640 )
+
+[node name="342" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1760, 640 )
+
+[node name="343" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1792, 640 )
+
+[node name="344" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1824, 640 )
+
+[node name="345" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1888, 640 )
+
+[node name="346" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1856, 640 )
+
+[node name="347" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1920, 640 )
+
+[node name="348" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1952, 640 )
+
+[node name="349" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 1984, 640 )
+
+[node name="350" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2016, 640 )
+
+[node name="351" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2080, 640 )
+
+[node name="352" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2048, 640 )
+
+[node name="353" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2112, 640 )
+
+[node name="354" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2144, 640 )
+
+[node name="355" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2176, 640 )
+
+[node name="356" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2208, 640 )
+
+[node name="357" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2272, 640 )
+
+[node name="358" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2240, 640 )
+
+[node name="359" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2304, 640 )
+
+[node name="360" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2336, 640 )
+
+[node name="361" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2368, 640 )
+
+[node name="362" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2400, 640 )
+
+[node name="363" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2464, 640 )
+
+[node name="364" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2432, 640 )
+
+[node name="365" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2496, 640 )
+
+[node name="366" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2528, 640 )
+
+[node name="367" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2560, 640 )
+
+[node name="368" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2592, 640 )
+
+[node name="369" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2656, 640 )
+
+[node name="370" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2624, 640 )
+
+[node name="371" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2688, 640 )
+
+[node name="372" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2720, 640 )
+
+[node name="373" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2752, 640 )
+
+[node name="374" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2784, 640 )
+
+[node name="375" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2848, 640 )
+
+[node name="376" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2816, 640 )
+
+[node name="377" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2880, 640 )
+
+[node name="378" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2912, 640 )
+
+[node name="379" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2944, 640 )
+
+[node name="380" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 2976, 640 )
+
+[node name="381" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3040, 640 )
+
+[node name="382" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3008, 640 )
+
+[node name="383" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3072, 640 )
+
+[node name="384" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3104, 640 )
+
+[node name="385" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3136, 640 )
+
+[node name="386" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3168, 640 )
+
+[node name="387" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3200, 640 )
+
+[node name="388" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3264, 640 )
+
+[node name="389" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3232, 640 )
+
+[node name="390" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3296, 640 )
+
+[node name="391" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3328, 640 )
+
+[node name="392" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3360, 640 )
+
+[node name="393" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3392, 640 )
+
+[node name="394" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3456, 640 )
+
+[node name="395" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3424, 640 )
+
+[node name="396" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3488, 640 )
+
+[node name="397" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3520, 640 )
+
+[node name="398" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3552, 640 )
+
+[node name="399" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3584, 640 )
+
+[node name="400" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3648, 640 )
+
+[node name="401" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3616, 640 )
+
+[node name="402" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3680, 640 )
+
+[node name="403" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3712, 640 )
+
+[node name="404" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3744, 640 )
+
+[node name="405" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3776, 640 )
+
+[node name="406" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3840, 640 )
+
+[node name="407" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3808, 640 )
+
+[node name="408" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3872, 640 )
+
+[node name="409" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3904, 640 )
+
+[node name="410" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3936, 640 )
+
+[node name="411" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 3968, 640 )
+
+[node name="412" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4032, 640 )
+
+[node name="413" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4000, 640 )
+
+[node name="414" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4064, 640 )
+
+[node name="415" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4096, 640 )
+
+[node name="416" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4128, 640 )
+
+[node name="417" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4160, 640 )
+
+[node name="418" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4192, 640 )
+
+[node name="419" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4256, 640 )
+
+[node name="420" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4224, 640 )
+
+[node name="421" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4288, 640 )
+
+[node name="422" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4320, 640 )
+
+[node name="423" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4352, 640 )
+
+[node name="424" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4384, 640 )
+
+[node name="425" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4448, 640 )
+
+[node name="426" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4416, 640 )
+
+[node name="427" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4480, 640 )
+
+[node name="428" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4512, 640 )
+
+[node name="429" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4544, 640 )
+
+[node name="430" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4576, 640 )
+
+[node name="431" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4640, 640 )
+
+[node name="432" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4608, 640 )
+
+[node name="433" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4672, 640 )
+
+[node name="434" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4704, 640 )
+
+[node name="435" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4736, 640 )
+
+[node name="436" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4768, 640 )
+
+[node name="437" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4832, 640 )
+
+[node name="438" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4800, 640 )
+
+[node name="439" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4864, 640 )
+
+[node name="440" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4896, 640 )
+
+[node name="441" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4928, 640 )
+
+[node name="442" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4960, 640 )
+
+[node name="443" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 4992, 640 )
+
+[node name="444" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 5824, 640 )
+
+[node name="445" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 5792, 640 )
+
+[node name="446" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 5856, 640 )
+
+[node name="447" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 5888, 640 )
+
+[node name="448" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 5920, 640 )
+
+[node name="449" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 5952, 640 )
+
+[node name="450" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6016, 640 )
+
+[node name="451" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 5984, 640 )
+
+[node name="452" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6048, 640 )
+
+[node name="453" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6080, 640 )
+
+[node name="454" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6112, 640 )
+
+[node name="455" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6144, 640 )
+
+[node name="456" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6176, 640 )
+
+[node name="457" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6240, 640 )
+
+[node name="458" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6208, 640 )
+
+[node name="459" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6272, 640 )
+
+[node name="460" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6304, 640 )
+
+[node name="461" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6336, 640 )
+
+[node name="462" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6368, 640 )
+
+[node name="463" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6432, 640 )
+
+[node name="464" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6400, 640 )
+
+[node name="465" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6464, 640 )
+
+[node name="466" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6496, 640 )
+
+[node name="467" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6528, 640 )
+
+[node name="468" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6560, 640 )
+
+[node name="469" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6592, 640 )
+
+[node name="470" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6656, 640 )
+
+[node name="471" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6624, 640 )
+
+[node name="472" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6688, 640 )
+
+[node name="473" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6720, 640 )
+
+[node name="474" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6752, 640 )
+
+[node name="475" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6784, 640 )
+
+[node name="476" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6848, 640 )
+
+[node name="477" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6816, 640 )
+
+[node name="478" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6880, 640 )
+
+[node name="479" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6912, 640 )
+
+[node name="480" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6944, 640 )
+
+[node name="481" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 6976, 640 )
+
+[node name="482" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( 7008, 640 )
+
+[node name="483" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1408, 640 )
+
+[node name="484" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1376, 640 )
+
+[node name="485" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1344, 640 )
+
+[node name="486" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1312, 640 )
+
+[node name="487" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1248, 640 )
+
+[node name="488" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1280, 640 )
+
+[node name="489" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1216, 640 )
+
+[node name="490" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1184, 640 )
+
+[node name="491" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1152, 640 )
+
+[node name="492" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1120, 640 )
+
+[node name="493" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1056, 640 )
+
+[node name="494" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1088, 640 )
+
+[node name="495" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -1024, 640 )
+
+[node name="496" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -992, 640 )
+
+[node name="497" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -960, 640 )
+
+[node name="498" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -928, 640 )
+
+[node name="499" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -864, 640 )
+
+[node name="500" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -896, 640 )
+
+[node name="501" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -832, 640 )
+
+[node name="502" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -800, 640 )
+
+[node name="503" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -768, 640 )
+
+[node name="504" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -736, 640 )
+
+[node name="505" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -672, 640 )
+
+[node name="506" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -704, 640 )
+
+[node name="507" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -640, 640 )
+
+[node name="508" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -608, 640 )
+
+[node name="509" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -576, 640 )
+
+[node name="510" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -544, 640 )
+
+[node name="511" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -480, 640 )
+
+[node name="512" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -512, 640 )
+
+[node name="513" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -448, 640 )
+
+[node name="514" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -416, 640 )
+
+[node name="515" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -384, 640 )
+
+[node name="516" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -352, 640 )
+
+[node name="517" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -288, 640 )
+
+[node name="518" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -320, 640 )
+
+[node name="519" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -256, 640 )
+
+[node name="520" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -224, 640 )
+
+[node name="521" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -192, 640 )
+
+[node name="522" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -160, 640 )
+
+[node name="523" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -96, 640 )
+
+[node name="524" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -128, 640 )
+
+[node name="525" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -64, 640 )
+
+[node name="526" parent="obsticles" instance=ExtResource( 5 )]
+position = Vector2( -32, 640 )

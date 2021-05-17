@@ -31,4 +31,6 @@ func _physics_process(delta):
 		$Sprite.play("jump")
 		if friction == true:
 				motion.x = lerp(motion.x, 0, 0.05)
+	if Input.is_action_pressed("R"):
+		get_tree().reload_current_scene()
 	motion = move_and_slide(motion, UP)
