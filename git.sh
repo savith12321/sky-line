@@ -1,5 +1,5 @@
 git config --global user.name "savith nishitha"
-$ git config --global user.email "isavith.nishitha@gmail.com"
+git config --global user.email "isavith.nishitha@gmail.com"
 git init
 git branch -M main
 git commit -m "first commit"
