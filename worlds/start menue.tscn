@@ -1,11 +1,12 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=14 format=2]
 
-[ext_resource path="res://Sprites/Tiles/sky2.png" type="Texture" id=1]
-[ext_resource path="res://Sprites/Player/idle.png" type="Texture" id=2]
-[ext_resource path="res://Sprites/Player/jump.png" type="Texture" id=3]
-[ext_resource path="res://Sprites/Player/run0.png" type="Texture" id=4]
-[ext_resource path="res://Sprites/Player/run1.png" type="Texture" id=5]
-[ext_resource path="res://scripts/startmenue.gd" type="Script" id=6]
+[ext_resource path="res://scripts/startmenue.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Tiles/sky2.png" type="Texture" id=2]
+[ext_resource path="res://worlds/button_font.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Sprites/Player/jump.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Player/run0.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Player/run1.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Player/idle.png" type="Texture" id=7]
 
 [sub_resource type="DynamicFontData" id=1]
 hinting = 1
@@ -29,17 +30,10 @@ font_path = "res://Rockout-vVaM.ttf"
 size = 23
 font_data = SubResource( 5 )
 
-[sub_resource type="DynamicFontData" id=7]
-font_path = "res://Rockout-vVaM.ttf"
-
-[sub_resource type="DynamicFont" id=8]
-size = 23
-font_data = SubResource( 7 )
-
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-script = ExtResource( 6 )
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -47,7 +41,7 @@ __meta__ = {
 [node name="sky2" type="Sprite" parent="."]
 position = Vector2( 320.5, 201.5 )
 scale = Vector2( 1.7625, 1.3925 )
-texture = ExtResource( 1 )
+texture = ExtResource( 2 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 anchor_right = 1.0
@@ -58,9 +52,9 @@ __meta__ = {
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
 margin_left = 255.0
-margin_top = 107.0
+margin_top = 90.0
 margin_right = 385.0
-margin_bottom = 252.0
+margin_bottom = 270.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -85,34 +79,42 @@ __meta__ = {
 margin_top = 79.0
 margin_right = 130.0
 margin_bottom = 110.0
-custom_fonts/font = SubResource( 6 )
+custom_fonts/font = ExtResource( 3 )
 text = "help"
 
-[node name="Quit" type="Button" parent="CenterContainer/VBoxContainer"]
+[node name="Feedback" type="Button" parent="CenterContainer/VBoxContainer"]
 margin_top = 114.0
 margin_right = 130.0
 margin_bottom = 145.0
-custom_fonts/font = SubResource( 8 )
+custom_fonts/font = ExtResource( 3 )
+text = "Feedback"
+
+[node name="Quit" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 149.0
+margin_right = 130.0
+margin_bottom = 180.0
+custom_fonts/font = SubResource( 6 )
 text = "quit"
 
 [node name="jump" type="Sprite" parent="."]
 position = Vector2( 124.5, 112 )
 rotation = -0.23373
 scale = Vector2( 5.07143, 5 )
-texture = ExtResource( 3 )
+texture = ExtResource( 4 )
 
 [node name="run0" type="Sprite" parent="jump"]
 position = Vector2( 75.568, 11.9013 )
-texture = ExtResource( 4 )
+texture = ExtResource( 5 )
 
 [node name="run1" type="Sprite" parent="jump"]
 position = Vector2( 0.305359, 34.3059 )
-texture = ExtResource( 5 )
+texture = ExtResource( 6 )
 
 [node name="idle" type="Sprite" parent="jump"]
 position = Vector2( 72.9794, 51.3401 )
-texture = ExtResource( 2 )
+texture = ExtResource( 7 )
 
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Help" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Feedback" to="." method="_on_Feedback_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Quit" to="." method="_on_Quit_pressed"]

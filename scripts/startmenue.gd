@@ -14,3 +14,7 @@ func _on_Quit_pressed():
 
 func _on_Button_pressed():
 	get_tree().change_scene("res://worlds/Help.tscn")
+
+
+func _on_Feedback_pressed():
+	get_tree().change_scene("res://worlds/feedback.tscn")
